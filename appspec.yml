@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: 0.0
 os: linux
 
@@ -10,3 +11,17 @@ hooks:
     - location: scripts/start.sh
       timeout: 300
       runas: root
+=======
+version: 0.0
+os: linux
+
+hooks:
+  ApplicationStop:
+    - location: scripts/stop.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: scripts/start.sh
+      timeout: 300
+      runas: root
+>>>>>>> c60d27fb63bcca7673ec291d4edbd8021afdf782
