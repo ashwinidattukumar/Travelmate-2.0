@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "name": "travelmate-app",
     "version": "1.0.0",
@@ -22,7 +21,6 @@
         "mocha-junit-reporter": "^2.2.1"
     }
 }
-=======
 {
     "name": "travelmate-app",
     "version": "1.0.0",
@@ -46,4 +44,3 @@
         "mocha-junit-reporter": "^2.2.1"
     }
 }
->>>>>>> c60d27fb63bcca7673ec291d4edbd8021afdf782

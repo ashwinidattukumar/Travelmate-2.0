@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const express = require("express");
 const bodyParser = require("body-parser");
 const routes = require("./routes");
@@ -60,4 +59,3 @@ app.listen(PORT, () => {
 
 // Export routes
 module.exports = app;
->>>>>>> c60d27fb63bcca7673ec291d4edbd8021afdf782

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const express = require("express");
 const router = express.Router();
 const cities = require("./data.json");
@@ -84,4 +83,4 @@ router.get("/travelmate", (req, res) => {
 
 // Export routes
 module.exports = router;
->>>>>>> c60d27fb63bcca7673ec291d4edbd8021afdf782
+
