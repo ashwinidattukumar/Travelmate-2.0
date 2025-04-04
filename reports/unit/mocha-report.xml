@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.051" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-04-04T11:16:04" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="TravelMate App" timestamp="2025-04-04T11:16:04" tests="3" file="C:\Users\ashwini.1\Desktop\Travelmate\Travelmate-2.0\TravelMate-2.0\tests\app.test.js" time="0.050" failures="1">
+    <testcase name="TravelMate App should return city data for Mumbai" time="0.032" classname="should return city data for Mumbai">
+    </testcase>
+    <testcase name="TravelMate App should return city data for Delhi" time="0.006" classname="should return city data for Delhi">
+      <failure message="expected Response{ _events: {}, …(34), …(2) } to have status code 404 but got 200" type="AssertionError"><![CDATA[AssertionError: expected Response{ _events: {}, …(34), …(2) } to have status code 404 but got 200
+    at C:\Users\ashwini.1\Desktop\Travelmate\Travelmate-2.0\TravelMate-2.0\tests\app.test.js:23:31
+    at Request.callback (node_modules\superagent\lib\node\index.js:857:12)
+    at IncomingMessage.<anonymous> (node_modules\superagent\lib\node\index.js:1070:18)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+      + expected - actual
+
+      -200
+      +404
+      ]]></failure>
+    </testcase>
+    <testcase name="TravelMate App should return an error for an invalid city Umatilla" time="0.008" classname="should return an error for an invalid city Umatilla">
+    </testcase>
+  </testsuite>
+</testsuites>
