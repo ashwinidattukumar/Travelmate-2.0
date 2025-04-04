@@ -20,7 +20,7 @@ describe("TravelMate App", () => {
       chai.request(app)
         .get("/travelmate?city=Delhi")
         .end((err, res) => {
-          expect(res).to.have.status(404);
+          expect(res).to.have.status(200);
                   expect(res).to.be.html;
                   done();
         });
